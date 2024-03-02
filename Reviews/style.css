@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(241, 255, 255);
+}
+
+.reviewCont {
+  height: 380px;
+  width: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.img {
+  height: 140px;
+  width: 140px;
+  margin: 0.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  background-position: center;
+}
+
+.user {
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.job {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.description {
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.random {
+  background: none;
+  border: 2px solid black;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.change {
+  cursor: pointer;
+  scale: 1.2;
+}
