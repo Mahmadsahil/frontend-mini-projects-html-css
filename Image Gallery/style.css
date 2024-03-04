@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+  padding: 1.5rem 0px;
+  background-color: rgb(245, 252, 219);
+  box-shadow: 0px 0px 5px 0px black;
+}
+
+.imagesList {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-direction: column;
+}
+
+p {
+  font-size: larger;
+  margin: 20px 0px;
+}
+
+.imagesList .imgs {
+  /* position: absolute; */
+  height: 12rem;
+  width: 12rem;
+  margin: 15px;
+  border: 1px solid;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  border: 0;
+  border-radius: 12px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease;
+}
+
+.imagesList .imgs:hover{
+  transform: scale(1.1);
+}
+
+.display {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-direction: column;
+}
+
+.displayimage {
+  height: 22rem;
+  width: 25rem;
+  margin: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.selectedImg {
+  height: 22rem;
+  width: 25rem;
+  object-fit: cover;
+  background-position: center;
+}
