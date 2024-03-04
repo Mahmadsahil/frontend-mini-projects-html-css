@@ -1,3 +1,8 @@
 # frontend-mini-projects-html-css
 
-1 frontend-mini-projects-html-css-Js -  https://github.com/Mahmadsahil/frontend-mini-projects-html-css-Js/edit/main/README.md
+Live Demo :
+
+| Project Name | Live links |
+| --- | --- |
+| Counter | https://github.com/Mahmadsahil/frontend-mini-projects-html-css-Js/edit/main/README.md|
+| Review | [https://github.com/Mahmadsahil/frontend-mini-projects-html-css-Js/edit/main/README.md|
