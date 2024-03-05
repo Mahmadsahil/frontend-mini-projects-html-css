@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  height: 100vh;
+  display: flex;
+  background-color: rgb(236, 236, 236);
+  justify-content: space-between;
+}
+
+.navBar {
+  height: 100%;
+  width: 15rem;
+  text-align: center;
+  transition: 500ms ease;
+  padding: 1rem;
+  background-color: lightseagreen;
+}
+
+.logoCont {
+  width: 50%;
+  text-align: center;
+  width: 100%;
+}
+
+.logo {
+  font-size: 2.2rem;
+  color: white;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.links {
+  text-align: center;
+  margin: 1rem;
+}
+
+li {
+  padding: 1rem;
+  list-style: none;
+  margin: 2rem 0;
+}
+
+li:hover {
+  background-color: lightblue;
+}
+
+li a {
+  font-size: 1.3rem;
+  color: rgb(17, 10, 68);
+  text-decoration: none;
+  font-style: none;
+}
+
+.menu {
+  font-size: 2rem;
+  margin: 3rem 5rem;
+  transition: 800ms ease;
+}
+
+.menu:hover {
+  rotate: 90deg;
+}
+
+.navToggle {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 500px) {
+  .navBar {
+    width: 90%;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .menu {
+    margin: 2rem;
+  }
+}
