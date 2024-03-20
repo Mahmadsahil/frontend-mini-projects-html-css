@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(249, 241, 255);
+}
+
+.tabCont {
+  height: 300px;
+  width: 500px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 1rem;
+}
+
+.btns {
+  background-color: rgb(238, 238, 238);
+}
+
+.btn {
+  font-size: 1rem;
+  width: 164px;
+  padding: 0.8rem 1rem;
+  margin: 0;
+  border: 0;
+  font-weight: bold;
+}
+
+.active {
+  background-color: white;
+}
+
+.tabs {
+  padding: 1rem;
+}
+
+h3 {
+  padding: 0.5rem 1rem;
+}
+
+
+.tab p {
+  color: rgb(91, 91, 91);
+  font-size: 1rem;
+  padding: 1rem;
+}
